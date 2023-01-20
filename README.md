@@ -6,6 +6,8 @@
 
 # 初始化
 ```
+sudo yum install git
+git clone https://github.com/lantron-ltd/stream-live.git
 cd stream-live
 sudo chmod +x init.sh
 ./init.sh
@@ -13,6 +15,7 @@ sudo chmod +x init.sh
 
 # 安装直播推流软件
 ```
+screen -S youtube
 sudo chmod +x youtube.sh
 ./youtube.sh
 ```
@@ -32,6 +35,11 @@ rtmp://a.rtmp.youtube.com/live2/直播码
 ```
 
 # 去直播界面确认
+确实没问题之后取消和screen的关联，再开一个终端
+```
+screen -list
+
+```
 
 
 bilibili操作同上

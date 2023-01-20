@@ -1,5 +1,5 @@
-sudo yum update
-sudo yum upgrade
+sudo yum update -y
+sudo yum upgrade -y
 sudo yum install -y screen
 sudo yum install -y vim
 
