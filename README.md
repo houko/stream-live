@@ -23,7 +23,7 @@ sudo chmod +x youtube.sh
 选`1`，然后`yes`安装
 
 # Youtube开始直播
-把视频放在  ~/video下后执行脚本
+把视频放在`/home/centos/video`下后执行脚本
 ```
 ./youtube.sh
 ```
@@ -31,7 +31,7 @@ sudo chmod +x youtube.sh
 选`2`，把直播推流地址填进去进行下一步，填写要直播的视频地址:`home/centos/video`，如果机器CPU性能一般不要开水印
 
 ```
-rtmp://a.rtmp.youtube.com/live2/直播码
+rtmp://a.rtmp.youtube.com/live2/你的youtube直播码
 ```
 
 # 去直播界面确认
