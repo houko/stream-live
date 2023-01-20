@@ -19,7 +19,7 @@ screen -S youtube
 sudo chmod +x youtube.sh
 ./youtube.sh
 ```
-
+![youtube](youtube.png)
 选`1`，然后`yes`安装
 
 # Youtube开始直播
@@ -27,7 +27,7 @@ sudo chmod +x youtube.sh
 ```
 sudo ./youtube.sh
 ```
-
+![youtube](youtube.png)
 选`2`，把直播推流地址填进去进行下一步，填写要直播的视频地址:`home/centos/video`，如果机器CPU性能一般不要开水印
 
 ```
