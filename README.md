@@ -10,7 +10,7 @@ sudo yum install git
 git clone https://github.com/lantron-ltd/stream-live.git
 cd stream-live
 sudo chmod +x init.sh
-./init.sh
+sudo ./init.sh
 ```
 
 # 安装直播推流软件
@@ -25,7 +25,7 @@ sudo chmod +x youtube.sh
 # Youtube开始直播
 把视频放在`/home/centos/video`下后执行脚本
 ```
-./youtube.sh
+sudo ./youtube.sh
 ```
 
 选`2`，把直播推流地址填进去进行下一步，填写要直播的视频地址:`home/centos/video`，如果机器CPU性能一般不要开水印
